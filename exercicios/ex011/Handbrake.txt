@@ -1,0 +1,1 @@
+HandBrake é um programa multiplataforma e multitarefa em código aberto de conversão de arquivos de vídeo e DVD e Bluray para MPEG-4, disponível para Mac OS X, Linux e Windows. É compatível com equipamentos como: Apple TV, iPod, iPhone, Xbox 360, PlayStation 3 e PSP. 
