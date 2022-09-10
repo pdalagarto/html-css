@@ -1,16 +1,33 @@
 @charset "UTF-8";
 @font-face {
-    font-family: "fonts/Courgette";
-    src: url("fonts/Courgette.ttf") format("truetype");
+    font-family: "fonts/MarckScript-Regular";
+    src: url("fonts/MarckScript-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-    font-family: "fonts/";
-    src: url("fonts/Courgette.ttf") format("truetype");
+    font-family: "fonts/Asset-Regular";
+    src: url("fonts/Asset-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-    font-family: "fonts/Courgette";
-    src: url("fonts/Courgette.ttf") format("truetype");
+    font-family: "fonts/Tillana-Regular";
+    src: url("fonts/Tillana-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
 
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+header>h1{
+    font-family: "fonts/Courgette";
+}
+main{
+    font-family: "MarckScript-Regular";
+}
