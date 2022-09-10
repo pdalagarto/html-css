@@ -18,19 +18,20 @@
     margin: 0;
 }
 body{
-
+    
 }
-
 header{
     background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
-    height: 200px;
+    min-height: 250px;
+    
 }
 header>h1{
     padding: 50px 50px 10px 50px;
     font-family: "fonts/MarckScript-Regular";
     font-size:3.5em;
+    min-width: 350px;
 }
 header>p{
     text-decoration: none;
@@ -70,7 +71,6 @@ section>p{
 #conteudo2>p{
     background-color: rgba(0, 0, 0, 0.497);
     color: white;
-    position: absolute;
     transform: translate(0, +50%);
     margin: 20px;
 	padding: 20px;
