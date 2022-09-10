@@ -12,6 +12,10 @@
     src: url("fonts/Tillana-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
+
+@-ms-viewport {
+    width: device-width ;
+    }
 }
 *{
     padding: 0;
