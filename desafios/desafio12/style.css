@@ -50,14 +50,34 @@ main{
     font-family: "fonts/Tillana-Regular";
     font-size: 26px;
     font-weight: 600;
+    margin-bottom: 30px;
 }
+section>p{
+    margin: 20px;
+	padding: 20px 20px 20px 20px;
+	text-align: left;
+	width: 390px;
+}
+
+article>p{
+    margin: 20px;
+	padding: 20px;
+	text-align: left;
+	width: 390px;
+}
+
 #container1{
     background-color: rgb(255, 255, 255);
-    margin:50px 380px 50px 50px;
+    display: contents;
 }
 #container2{
-}
-#conteudo2{
     background-image: url('imagens/background001.jpg');
-    margin:50px 380px 50px 50px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96vh;
+}
+#conteudo2>p{
+    background-color: rgb(255, 255, 255);
+    background-position: right bottom;
 }
