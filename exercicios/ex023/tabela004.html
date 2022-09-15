@@ -25,7 +25,7 @@
         td{
             padding: 10px;
             border: 1px solid black;
-            border-collapse: collapse;
+
         }
         caption{
             font-size: 2em;
@@ -40,12 +40,16 @@
     <table>
         <caption>Filmes</caption>
         <thead>
-            <th>Grupo</th>
-            <th class="nomes">Nomes</th>
-            <th colspan="3">Filmes</th>
+            <th scope="col">Grupos</th>
+            <th scope="col" class="nomes">Nomes</th>
+            <th scope="colgroup" colspan="3">Filmes</th>
         </thead>
+        <tfoot>
+            <th scope="row" colspan="4">Total</th>
+            <td>1000</td>
+        </tfoot>
         <tr>
-            <th rowspan="3">Mulheres</th>
+            <th scope="rowgroup" rowspan="3">Mulheres</th>
             <td>Ana Maria Santos</td>
             <td>Alien</td>
             <td>Rambo</td>
@@ -64,7 +68,7 @@
             <td>Big Hero</td>
         </tr>
         <tr>
-            <th rowspan="3">Homens</th>
+            <th scope="rowgroup" rowspan="3">Homens</th>
             <td>Bruno Mendonça</td>
             <td>Intocáveis</td>
             <td>Amnésia</td>
