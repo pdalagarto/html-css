@@ -6,5 +6,7 @@
 }
 body{
     background-image: url("imagens/fundo-madeira.jpg");
-    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
