@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <p>
+        <label for="iest">Destrito</label>
+        <select name="destrito" id="idestrito">
+            <option value="" selected>---Escolha---</option>
+            <optgroup label="Norte">
+                <option value="avr">Aveiro</option>
+                <option value="por">Porto</option>
+                <option value="bra">Braga</option>
+            </optgroup>
+            <optgroup label="Sul">
+                <option value="set">Setubal</option>
+                <option value="lis" >Lisboa</option>
+                <option value="far">Faro</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="iprof">Profissão: </label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option>Professor</option>
+            <option>Estudante</option>
+            <option>Gestor</option>
+            <option>Administrador</option>
+        </datalist>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</body>
+</html>
