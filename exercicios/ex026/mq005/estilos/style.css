@@ -19,8 +19,22 @@ header>h1{
     padding: 10px;
     margin-bottom: 15px;
 }
-menu{
+
+span#burger{
     display: block;
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    
+}
+span#burger:hover{
+    background-color: rgb(142, 142, 142);
+    color: black;
+    cursor: pointer;
+}
+menu>ul{
+    display: none;
 }
 menu> ul > li >a{
     display: block;
@@ -30,14 +44,17 @@ menu> ul > li >a{
     text-align: center;
     color: aliceblue;
     padding: 10px;
+
 }
 
 menu> ul > li >a:hover{
     background-color: rgba(112, 112, 112, 0.425);
+    cursor: pointer;
 }
+
 main{
     display: block;
-    
+    margin: auto;
     background-color: white;
     width: 90vw;
     padding: 10px;

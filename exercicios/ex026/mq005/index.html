@@ -7,12 +7,15 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-    
-        <menu>
+        <span id="burger"  class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -30,5 +33,11 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, quibusdam, suscipit aut quaerat delectus illum vitae tenetur quam minima magnam, odio inventore dolorum debitis unde repudiandae dolores autem perspiciatis necessitatibus.</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            itens.style.display = 'block'
+        }
+
+    </script>
 </body>
 </html>
