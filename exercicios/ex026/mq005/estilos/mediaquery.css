@@ -1,0 +1,23 @@
+/*
+Pequenas telas < 600px
+Telemovel: 600 ate 768px
+Tablet: 768 ate 992px
+Desktop: 992 ate 1200px
+Grandes telas > 1200px
+*/
+
+
+@media screen and (min-width: 992px){
+    span#burger{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu>ul>li{
+        display: inline-block;
+    }
+    main{
+        width: 768px;
+    }
+}
