@@ -1,0 +1,29 @@
+
+/*
+verde #49a09d
+lilas #5f2c82
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #49a09d, #5f2c82) ;
+}
+
+section{
+    display: flex;
+    padding: 20px;
+    left: 50%;
+}
+.classiamgem{
+    width: 200px;
+}
+
+div#formulario{
+    background-color: white;
+    flex-grow: 1;
+}
