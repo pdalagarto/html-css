@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/6681/6681204.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
     <title>Login</title>
 
 </head>
@@ -13,13 +14,21 @@
     <main>
         <section id="login">
             <div id="imagem">
-                <img class="classimagem" src="imagens/background.png" alt="">
+                
             </div>
             <div id="formulario">
                 <h1>Login:</h1>
-                <p>Seja bem-vindo, faça o login!</p>
-                <form action="login.php" method="post">
-
+                <p>Seja bem-vindo, faça o login!</p><br>
+                <form id="form" action="login.php" method="post">
+                    <label for="iusu" class="user"><link rel="shortcut icon" href="imagens/1077114.png" type="image/x-icon"></label>
+                    <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="20" placeholder="nome do usuario" autocomplete="additional-name"><br>
+                    <label for="isenha">Password:</label>
+                    <input type="text" name="senha" id="isenha" required minlength="8" maxlength="15"
+                    size="20" autocomplete="current-password">
+                    <p>
+                        <input type="button" value="Entrar"><br>
+                        <input type="button" value="Esqueci-me da senha!">
+                    </p>
                 </form>
             </div>
         </section>
